@@ -1,0 +1,22 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+body > .content-wrapper {
+    flex: 1; /* 본문이 영역을 꽉 채우게 */
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    margin-top: auto; /* footer를 가장 아래로 밀어냄 */
+    width: 100%;
+    text-align: center;
+    padding: 15px 0;
+    background-color: rgb(14, 58, 163);
+    color: white;
+}
