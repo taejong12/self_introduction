@@ -36,6 +36,11 @@
 		</dependency>
 		
 		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-jdbc</artifactId>
+		</dependency>
+		
+		<dependency>
 			<groupId>org.mybatis.spring.boot</groupId>
 			<artifactId>mybatis-spring-boot-starter</artifactId>
 			<version>3.0.4</version>
@@ -58,6 +63,13 @@
 			<optional>true</optional>
 		</dependency>
 		
+		<!-- JSTL -->
+		<dependency>
+			<groupId>org.glassfish.web</groupId>
+			<artifactId>jakarta.servlet.jsp.jstl</artifactId>
+			<scope>compile</scope>
+		</dependency>
+		
 		<!-- JSTL 라이브러리 추가해주기 -->
 		<dependency>
 			<groupId>jakarta.servlet.jsp.jstl</groupId>
@@ -72,10 +84,10 @@
 			<version>3.6.1</version>
 		</dependency>
 		
-		<!-- Tomcat Embed Jasper -->
+		<!-- JSP -->
 		<dependency>
-			<groupId>org.apache.tomcat.embed</groupId>
-			<artifactId>tomcat-embed-jasper</artifactId>
+		    <groupId>org.apache.tomcat.embed</groupId>
+		    <artifactId>tomcat-embed-jasper</artifactId>
 		</dependency>
 		
 		<dependency>
