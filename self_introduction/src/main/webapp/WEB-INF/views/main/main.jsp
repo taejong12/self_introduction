@@ -17,7 +17,7 @@
 	    </video>
 	
 	    <h1 class="start-button">
-			<a href="${contextPath}/intro/index">
+			<a href="${contextPath}/index/main">
 				지금 시작합니다
 			</a>
 		</h1>

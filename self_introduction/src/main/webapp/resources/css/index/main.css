@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* 요소 크기 계산 안정화 */
+}
+
+body {
+    background-image: url("../../img/intro/background_image.jpg");
+    background-size: cover;          /* 화면을 가득 채우되, 비율 유지 */
+    background-position: center;     /* 가운데 정렬 */
+    background-repeat: no-repeat;    /* 반복 금지 */
+    background-attachment: fixed;    /* 스크롤해도 배경 고정 */
+}
+
+.intro-wrapper {
+    padding: 100px 100px; /* 전체 패딩 더 여유 있게 */
+}
+
+.intro-row {
+    display: flex;
+    flex-wrap: wrap; /* 줄바꿈 허용 */
+    justify-content: center;
+    gap: 100px; /* 카드 사이 간격 (위쪽 row용) */
+    margin-bottom: 100px; /* 위아래 간격 넓힘 */
+}
+
+.intro-row.bottom {
+	justify-content: center;     /* 가운데 정렬 */
+    gap: 100px;                  /* 카드 사이 간격 설정 */
+    padding: 0 200px; /* 좌우 패딩을 주어 적당히 중앙에 오도록 */
+    margin-bottom: 140px; /* 위아래 간격 */
+}
+
+/* 카드 공통 스타일 */
+.intro-card {
+    flex: 1 1 250px;       /* 최소 300px 기준으로 균등하게 커짐 */
+    max-width: 320px;      /* 너무 커지는 것 방지 */
+    aspect-ratio: 1 / 1.3;
+    background: #fffefb;
+    border: 2px solid #d8cbb0;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    padding: 30px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+}
+
+.intro-card:hover {
+    transform: translateY(-12px);
+    box-shadow: 0 14px 35px rgba(0, 0, 0, 0.25);
+}
+
+/* 이미지 스타일 */
+.intro-card h1 {
+    height: 70%;
+}
+.intro-card h1 img {
+    width: 100%;       /* 가로 너비를 카드에 맞게 */
+    height: 100%;
+    border-radius: 10px;
+    background-size: cover;          /* 화면을 가득 채우되, 비율 유지 */
+    background-position: center;     /* 가운데 정렬 */
+    background-repeat: no-repeat;    /* 반복 금지 */
+}
+
+/* 제목 스타일 */
+.intro-card h2 {
+    position: absolute;
+    top: calc(70% + ((30% - 24px) / 2));
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 24px;
+    font-weight: bold;
+    color: #5c4426;
+}

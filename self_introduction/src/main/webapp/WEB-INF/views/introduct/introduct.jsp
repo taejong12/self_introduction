@@ -6,16 +6,20 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>스킬 목록</title>
+<title>자기소개</title>
 </head>
 <body>
 	<%@ include file="/WEB-INF/views/layout/header.jsp" %>
-		
-		메뉴판
-		아이티뱅크(6개월) - 가격
-		
-		깃 - 가격
-		AWS - 가격
+		연대기 작성
+		출생
+		학력
+		전공
+		경력
+		연대기
+		나의 일생기
+		오늘의 이르기까지 나는 어떤 삶을 살았는지
+		나의 핵심 키워드
+		끝에는 앞으로 나아갈 방향
 	<%@ include file="/WEB-INF/views/layout/footer.jsp" %>
 </body>
 </html>
