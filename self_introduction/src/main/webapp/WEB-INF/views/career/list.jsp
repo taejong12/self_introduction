@@ -8,10 +8,14 @@
 </head>
 <body>
 	<%@ include file="/WEB-INF/views/layout/header.jsp" %>
-	<%@ include file="/WEB-INF/views/layout/nav.jsp" %>
+	
 	<section>
-		경력 목록
+	
+		(주) 아이뱅크 - 품질유지부서 | 사원
 		
+		웹 사이트 개발 및 유지 보수
+		
+				
 	</section>
 	<%@ include file="/WEB-INF/views/layout/footer.jsp" %>
 </body>

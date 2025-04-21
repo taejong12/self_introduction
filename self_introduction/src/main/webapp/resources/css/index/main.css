@@ -7,7 +7,7 @@
 }
 
 body {
-    background-image: url("../../img/intro/background_image.jpg");
+    background-image: url("../../img/index/background_image.jpg");
     background-size: cover;          /* 화면을 가득 채우되, 비율 유지 */
     background-position: center;     /* 가운데 정렬 */
     background-repeat: no-repeat;    /* 반복 금지 */
