@@ -14,25 +14,25 @@
 	
 	<section class="intro-wrapper">
 		<div class="intro-row top">
-			<a href="#" class="intro-card">
+			<a href="${contextPath}/selfIntro/list" class="intro-card">
 				<h1><img src="${contextPath}/resources/img/intro/self_intro_image.jpg" alt="자기소개 이미지"></h1>
 				<h2>자기소개</h2>
 			</a>
-			<a href="#" class="intro-card">
+			<a href="${contextPath}/skill/list" class="intro-card">
 			    <h1><img src="${contextPath }/resources/img/intro/skill_image.jpg" alt="기술 이미지"></h1>
 			    <h2>기술</h2>
 			</a>
-			<a href="#" class="intro-card">
+			<a href="${contextPath}/career/list" class="intro-card">
 			    <h1><img src="${contextPath }/resources/img/intro/career_image.jpg" alt="경력 이미지"></h1>
 			    <h2>경력</h2>
 			</a>
 		</div>
 		<div class="intro-row bottom">
-			<a href="#" class="intro-card">
+			<a href="${contextPath}/project/list" class="intro-card">
 			    <h1><img src="${contextPath }/resources/img/intro/project_image.jpg" alt="프로젝트 이미지"></h1>
 			    <h2>프로젝트</h2>
 			</a> 
-			<a href="#" class="intro-card">
+			<a href="https://github.com/taejong12" class="intro-card" target="_blank">
 			    <h1><img src="${contextPath }/resources/img/intro/github_image.png" alt="깃허브 이미지"></h1>
 			    <h2>깃허브</h2>
 			</a>

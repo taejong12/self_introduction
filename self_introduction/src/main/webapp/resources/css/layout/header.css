@@ -6,5 +6,9 @@ header {
 	font-weight: bolder;
 	padding: 15px 0px;
 	background-color: rgb(14,58,163);
+}
+
+header > a{
 	color:white;
+	text-decoration: none;
 }

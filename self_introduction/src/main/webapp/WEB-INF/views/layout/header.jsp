@@ -4,5 +4,5 @@
 <c:set var="contextPath" value="${pageContext.request.contextPath}" />    
 <link rel="stylesheet" href="${contextPath}/resources/css/layout/header.css">
 <header>
-	Self Introduction
+	<a href="${contextPath}/intro/index">Self Introduction</a>
 </header>

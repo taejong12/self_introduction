@@ -1,16 +1,15 @@
-package com.introduction.web.intro.controller;
+package com.introduction.web.career.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-@RequestMapping("/intro")
-public class IntroController {
+@RequestMapping("/career")
+public class CareerController {
 
-	@GetMapping("/index")
-	public String introIndexPage() {
-		return "intro/index";
+	@GetMapping("/list")
+	public String CareerListPage() {
+		return "career/list";
 	}
-	
 }
