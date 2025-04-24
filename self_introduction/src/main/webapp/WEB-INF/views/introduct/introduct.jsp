@@ -22,7 +22,7 @@
 	<div style="display: flex; flex-direction: column; justify-content: center;">
 		<div style="display: flex; align-items: center; gap: 100px; border-bottom: 1px solid #e0e0e0; background: #f9f9f9;">
 			<div style="margin-left: 160px;">
-				<img alt="증명사진"/>
+				<img src="${contextPath}/resources/img/profile/profileImg.jpg" alt="증명사진" style="width: 250px;"/>
 			</div>
 			<div>
 				<h1 style="font-size:100px;line-height:116px; margin: 0px;">About <br> TAEJONG!</h1>

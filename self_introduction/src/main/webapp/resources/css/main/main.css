@@ -41,9 +41,8 @@ body, html {
     height: 100px; /* 버튼 높이 증가 */
     font-size: 30px; /* 글자 크기 증가 */
     font-weight: bold;
-    color: #5c4426;
-    background: #fef9e7;
-    border: 4px solid #c2b280;
+    color: black;
+    background: white;
     border-radius: 20px;
     text-decoration: none;
     text-align: center;

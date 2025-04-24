@@ -5,13 +5,137 @@
 <head>
 <meta charset="UTF-8">
 <title>프로젝트 목록 페이지</title>
+<style type="text/css">
+	.project_sec {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		font-size: 24px;
+	}
+	
+	.project_block {
+		width: 100%;
+		text-align: center;
+		border-bottom: 1px solid #e0e0e0;
+		padding: 85px 0px;
+	}
+	
+	.sub_title {
+		font-size: 32px;
+		color: #777;
+	}
+	
+	.description {
+		font-size: 20px;
+		color: #444;
+		line-height: 1.8;
+	}
+		
+	.link_group {
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+		align-items: center;
+	}
+	
+	.link {
+		color: black;
+		text-decoration: none;
+	}
+	
+	.link:hover {
+		color: #0366d6;
+		text-decoration: underline;
+	}
+	
+	.card-container {
+	  display: grid;
+	  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	  justify-content: center;
+	  gap: 20px;
+	  margin: 50px;
+	}
+	
+	.card {
+	  display: flex;
+	  flex-direction: column;
+	  align-items: center;
+	  justify-content: center;
+	  background-color: #f9f9f9;
+	  border-radius: 10px;
+	  padding: 20px;
+	  text-align: center;
+	  text-decoration: none;
+	  color: #333;
+	  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+	  transition: transform 0.2s, background-color 0.2s;
+	}
+	
+	.card:hover {
+	  transform: translateY(-5px);
+	  background-color: #eef6ff;
+	}
+	
+	.card img {
+	  width: 100px;
+	  height: 100px;
+	  margin-bottom: 10px;
+	}
+	
+	.card span {
+	  font-weight: bold;
+	}
+</style>
 </head>
 <body>
 	<%@ include file="/WEB-INF/views/layout/header.jsp" %>
-	<%@ include file="/WEB-INF/views/layout/nav.jsp" %>
-	<section>
-		프로젝트 목록
-		<a href="https://toothsome-bassoon-7c2.notion.site/K-2024-12-16-6-20-1afbca1ff135803ab715e71c047dfda6?pvs=4" target="_blank">노션 아이티뱅크</a>
+
+	<section class="project_sec">
+		<div class="project_block">
+			<img src="${contextPath}/resources/img/project/freebankLogo.jpg" alt="FREEBANKLOGO"/>
+			<p class="sub_title">핀테크 수업 기반 금융 플랫폼</p>
+			<p class="description">
+				핀테크 수업에서 배운 실무 지식을 바탕으로 한 금융 시스템 구현 프로젝트
+			</p>
+			<p class="description">
+				쇼핑몰 형태의 금융 서비스로 구성하여 다양한 기능을 통합했고,
+			</p>
+			<p class="description">
+				Java / Oracle / JavaFX 등을 활용했습니다.
+			</p>
+			<div class="card-container">
+				<a class="card" href="https://github.com/taejong12/FREEBANK" target="_blank">
+					<img src="https://img.icons8.com/material-outlined/96/github.png" alt="GitHub">
+					<span>GitHub</span>
+				</a>
+			</div>
+		</div>
+		
+		<div class="project_block">
+			<img src="${contextPath}/resources/img/project/TripPocketLogo.png" alt="TRIPPOCKETLOGO"/>
+			<p style="color: #555;">여행의 모든 순간을 간편하게</p>
+			<p style="font-weight: bold;">나를 아는 여행, Trip Pocket</p>
+			<p style="color: #777;">내 마음대로, 나만의 특별한 여행</p>
+			<div class="card-container">
+				<a class="card" href="https://tirppocket.duckdns.org/" target="_blank">
+					<img src="${contextPath}/resources/img/project/TripPocketLogo.png" alt="trippocket">
+					<span>Trip Pocket</span>
+				</a>
+				<a class="card" href="https://github.com/taejong12/itbank_tripPocket" target="_blank">
+					<img src="https://img.icons8.com/material-outlined/96/github.png" alt="GitHub">
+					<span>GitHub</span>
+				</a>
+				<a class="card" href="https://docs.google.com/spreadsheets/d/e/2PACX-1vSGk6rWZbM7f4B8FllXBJr7r3vIunj4LSrDQ8NfP6oxkaVTLaUT_jiq3yyinkiYvw55qejFqRs8-3En/pubhtml?gid=1115838130&single=true" target="_blank">
+					<img src="https://img.icons8.com/color/96/microsoft-excel-2019--v1.png" alt="WBS">
+					<span>WBS</span>
+				</a>
+				<a class="card" href="https://docs.google.com/spreadsheets/d/e/2PACX-1vSGk6rWZbM7f4B8FllXBJr7r3vIunj4LSrDQ8NfP6oxkaVTLaUT_jiq3yyinkiYvw55qejFqRs8-3En/pubhtml?gid=1763198525&single=true" target="_blank">
+					<img src="https://img.icons8.com/color/96/database.png" alt="DB">
+					<span>DB</span>
+				</a>
+			</div>
+		</div>
 	</section>
 	<%@ include file="/WEB-INF/views/layout/footer.jsp" %>
 </body>

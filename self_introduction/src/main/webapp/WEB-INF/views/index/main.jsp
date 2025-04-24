@@ -8,6 +8,7 @@
 <meta charset="UTF-8">
 <title>목차</title>
 <link rel="stylesheet" href="${contextPath}/resources/css/index/main.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
 </head>
 <body>
 	<section class="intro-wrapper">
@@ -20,7 +21,7 @@
 			    <h1><img src="${contextPath}/resources/img/index/skill_image.jpg" alt="기술 이미지"></h1>
 			    <h2>SKILL</h2>
 			</a>
-			<a href="#" class="intro-card">
+			<a href="/career/list" class="intro-card">
 			    <h1><img src="${contextPath}/resources/img/index/career_image.jpg" alt="경력 이미지"></h1>
 			    <h2>CAREER</h2>
 			</a>
@@ -30,9 +31,9 @@
 			    <h1><img src="${contextPath}/resources/img/index/project_image.jpg" alt="프로젝트 이미지"></h1>
 			    <h2>PROJECT</h2>
 			</a> 
-			<a href="/github/list" class="intro-card">
+			<a href="https://github.com/taejong12" target="_blank" class="intro-card">
 			    <h1><img src="${contextPath}/resources/img/index/github_image.png" alt="깃허브 이미지"></h1>
-			    <h2>GITHUB</h2>
+			    <h2><i class="fab fa-github"></i> GITHUB</h2>
 			</a>
 		</div>
 	</section>
