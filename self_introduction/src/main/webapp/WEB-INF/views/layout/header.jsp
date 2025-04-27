@@ -10,21 +10,21 @@
 	<nav>
 		<ul>
 			<li>
-				<a href="/introduct">
+				<a href="${contextPath}/introduct">
 					ABOUT
 				</a>
 			</li>
 			<li>
-				<a href="/skill/list">
+				<a href="${contextPath}/skill/list">
 					SKILL
 				</a>
 			<li>
-				<a href="/career/list">
+				<a href="${contextPath}/career/list">
 					CAREER
 				</a>
 			</li>
 			<li>
-				<a href="/project/list">
+				<a href="${contextPath}/project/list">
 					PROJECT
 				</a>
 			</li>

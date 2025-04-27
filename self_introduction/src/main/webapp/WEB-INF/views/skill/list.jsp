@@ -70,7 +70,7 @@
 				<h2>기술판</h2>
 			</div>
 			<div style="display: grid; gap: 50px; width: 100%;">
-				<a href="/skill/detailList?title=itbank">
+				<a href="${contextPath}/skill/detailList?title=itbank">
 					<span class="left">itbank</span>
 					<span class="center">------</span>
 					<span class="right">9,173,730 원</span>

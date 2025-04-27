@@ -13,21 +13,21 @@
 <body>
 	<section class="intro-wrapper">
 		<div class="intro-row top">
-			<a href="/introduct" class="intro-card">
+			<a href="${contextPath}/introduct" class="intro-card">
 				<h1><img src="${contextPath}/resources/img/index/self_intro_image.jpg" alt="자기소개 이미지"></h1>
 				<h2>ABOUT</h2>
 			</a>
-			<a href="/skill/list" class="intro-card">
+			<a href="${contextPath}/skill/list" class="intro-card">
 			    <h1><img src="${contextPath}/resources/img/index/skill_image.jpg" alt="기술 이미지"></h1>
 			    <h2>SKILL</h2>
 			</a>
-			<a href="/career/list" class="intro-card">
+			<a href="${contextPath}/career/list" class="intro-card">
 			    <h1><img src="${contextPath}/resources/img/index/career_image.jpg" alt="경력 이미지"></h1>
 			    <h2>CAREER</h2>
 			</a>
 		</div>
 		<div class="intro-row bottom">
-			<a href="/project/list" class="intro-card">
+			<a href="${contextPath}/project/list" class="intro-card">
 			    <h1><img src="${contextPath}/resources/img/index/project_image.jpg" alt="프로젝트 이미지"></h1>
 			    <h2>PROJECT</h2>
 			</a> 
