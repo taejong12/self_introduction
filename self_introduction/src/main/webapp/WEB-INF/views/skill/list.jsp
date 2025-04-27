@@ -76,17 +76,17 @@
 					<span class="right">9,173,730 원</span>
 				</a>
 				<!-- /skill/detailList?title=git -->
-				<a href="#">
+				<!-- <a href="#">
 					<span class="left">Git(공사중)</span>
 					<span class="center">------</span>
 					<span class="right">36,000 원</span>
-				</a>
+				</a> -->
 				<!-- /skill/detailList?title=aws -->
-				<a href="#">
+				<!-- <a href="#">
 					<span class="left">AWS(공사중)</span>
 					<span class="center">------</span>
 					<span class="right">46,200 원</span>
-				</a>
+				</a> -->
 			</div>
 		</div>
 	<%@ include file="/WEB-INF/views/layout/footer.jsp" %>

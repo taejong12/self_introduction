@@ -13,7 +13,7 @@
 
 	<div class="background">
 	    <video id="mainVideo" autoplay muted>
-	        <source src="${contextPath}/resources/video/testIntro.mp4" type="video/mp4">
+	        <source src="${contextPath}/resources/video/taejong.mp4" type="video/mp4">
 	    </video>
 	
 	    <h1 class="start-button">
