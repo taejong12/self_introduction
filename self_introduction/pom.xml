@@ -47,18 +47,22 @@
 			<optional>true</optional>
 		</dependency>
 		
-		<!-- JSTL -->
+		<dependency>
+		    <groupId>org.springframework.boot</groupId>
+		    <artifactId>spring-boot-starter-tomcat</artifactId>
+		</dependency>
+
+		
+		<!-- JSTL 구현체 -->
 		<dependency>
 			<groupId>org.glassfish.web</groupId>
 			<artifactId>jakarta.servlet.jsp.jstl</artifactId>
-			<scope>compile</scope>
 		</dependency>
-		
+
 		<!-- JSTL 라이브러리 추가해주기 -->
 		<dependency>
 			<groupId>jakarta.servlet.jsp.jstl</groupId>
 			<artifactId>jakarta.servlet.jsp.jstl-api</artifactId>
-			<scope>provided</scope>
 		</dependency>
 		
 		<!-- WebJars jQuery -->
@@ -87,6 +91,8 @@
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
 				<configuration>
+					<source>17</source>
+	        		<target>17</target>
 					<annotationProcessorPaths>
 						<path>
 							<groupId>org.projectlombok</groupId>
