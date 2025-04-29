@@ -9,7 +9,7 @@
 <title>자기소개</title>
 <style>
 	h3 {
-		font-size: 24px; 	
+		font-size: 24px;
 	}
 	
 	p {
