@@ -5,88 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <title>프로젝트 목록 페이지</title>
-<style type="text/css">
-	.project_sec {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		flex-direction: column;
-		font-size: 24px;
-	}
-	
-	.project_block {
-		width: 100%;
-		text-align: center;
-		border-bottom: 1px solid #e0e0e0;
-		padding: 85px 0px;
-	}
-	
-	.sub_title {
-		font-size: 32px;
-		color: #777;
-	}
-	
-	.description {
-		font-size: 20px;
-		color: #444;
-		line-height: 1.8;
-	}
-		
-	.link_group {
-		display: flex;
-		flex-direction: column;
-		gap: 10px;
-		align-items: center;
-	}
-	
-	.link {
-		color: black;
-		text-decoration: none;
-	}
-	
-	.link:hover {
-		color: #0366d6;
-		text-decoration: underline;
-	}
-	
-	.card-container {
-	  display: grid;
-	  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-	  justify-content: center;
-	  gap: 20px;
-	  margin: 50px;
-	}
-	
-	.card {
-	  display: flex;
-	  flex-direction: column;
-	  align-items: center;
-	  justify-content: center;
-	  background-color: #f9f9f9;
-	  border-radius: 10px;
-	  padding: 20px;
-	  text-align: center;
-	  text-decoration: none;
-	  color: #333;
-	  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-	  transition: transform 0.2s, background-color 0.2s;
-	}
-	
-	.card:hover {
-	  transform: translateY(-5px);
-	  background-color: #eef6ff;
-	}
-	
-	.card img {
-	  width: 100px;
-	  height: 100px;
-	  margin-bottom: 10px;
-	}
-	
-	.card span {
-	  font-weight: bold;
-	}
-</style>
+<link rel="stylesheet" href="${contextPath}/resources/css/project/list.css">
 </head>
 <body>
 	<%@ include file="/WEB-INF/views/layout/header.jsp" %>
@@ -118,7 +37,7 @@
 			<p style="font-weight: bold;">나를 아는 여행, Trip Pocket</p>
 			<p style="color: #777;">내 마음대로, 나만의 특별한 여행</p>
 			<div class="card-container">
-				<a class="card" href="https://tirppocket.duckdns.org/" target="_blank">
+				<a class="card" href="https://trippocket.duckdns.org/" target="_blank">
 					<img src="${contextPath}/resources/img/project/TripPocketLogo.png" alt="trippocket">
 					<span>Trip Pocket</span>
 				</a>
